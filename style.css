@@ -60,7 +60,7 @@ display: inline;
 font-size: 32px;
 }
 .menu-btn a {
-display: inline-block;
+
 text-decoration: none;
 /* safari hack */
 }
@@ -300,7 +300,7 @@ color: #fff;
 }
 .footer-nav li{
 list-style-type: none;
-margin: 0px 0px 100px 0px;
+margin: 30px 0px 100px 0px;
 padding: 0px 25px 8px 2px;
 float: left;
 }
@@ -774,9 +774,7 @@ transform-origin: right bottom;
 transform: scale3d(1, 1, 1);
 }
 */
-.blog-section{
-/*height: 500px;*/
-}
+
 .blog-section h1{
 text-transform: uppercase;
 text-align: center;
@@ -811,4 +809,114 @@ border-radius:0;
 background-color: #e2a38a;
 color:#fff;
 font-weight:600;
+}
+
+/*upcoming events*/
+
+.upcoming-events{
+    margin: 50px 0px 20px 0px;
+  }
+  .upcoming-events h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 0px 0px 20px 0px;
+  }
+  .event-content{
+    color: #635c5d;
+      padding: 0px 0px 0px 17px;
+          font-style: italic;
+  }
+  .event-read-more{
+    background-color:#bb9090 !important;
+      color: #fff !important;
+      font-weight: 500 !important;
+  }
+  .event-detail h3{
+    padding: 0px 0px 10px 0px;
+        margin: 0px 0px 20px 0px;
+  }
+  .event-icons{
+    padding: 0px 0px 20px 0px;
+  }
+ 
+@media only screen and (max-width: 500px) {
+  .company-service h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    margin: 21px 0px 0px 0px;
+}
+.company-service h5 {
+  text-align: center;
+  color: #e0576f;
+  font-size: 15px;
+  margin: 5px 0px 15px 0px;
+}
+.media-boxes-left h4 {
+  margin: 0px 50px 10px 4px;
+  font-size: 15px;
+}
+.media-boxes-left p {
+  color: #e0576f;
+  text-align: justify;
+  margin: 0px 50px 10px 4px;
+  font-size: 13px;
+}
+.media-boxes-right h4 {
+  margin: 0px 50px 10px 50px;font-size: 15px;
+}
+.media-boxes-right p {
+  color: #e0576f;
+  text-align: justify;
+  margin: 0px 10px 10px 50px; font-size: 13px;
+}
+.testimonial-section h1 {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 25px 0px 25px 0px;
+  font-size: 20px;
+}
+.testimonial-section {
+  background-image: url(dist/images/section-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.6; */
+  height: 318px;
+}
+.upcoming-events h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 0px 0px 20px 0px;
+}
+.event-detail h3 {
+  padding: 10px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
+  font-size: 20px;
+}
+.event-icons {
+  padding: 0px 0px 10px 0px;
+}
+.event-content {
+  padding: 0px 0px 0px 17px;
+  font-style: italic;
+  font-size: 13px;
+}
+.blog-section h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+  font-size: 20px;
+}
+.card-date h4 {
+  padding: 0px 0px 0px 22px;
+  color: #635c5d;
+}
+.footer-heading {
+  text-transform: uppercase;
+  margin: 3px 0px 34px 0px;
+  text-align: center;
+  font-size: 30px;
+}
+
 }
